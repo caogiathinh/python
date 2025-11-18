@@ -31,5 +31,9 @@ if __name__ == '__main__':
     do_dai = len(s)
     print("Độ dài chuỗi = ", do_dai)
 
+    chuoi_cha = "I LOVE PYTHON"
+    chuoi_con = "P"
 
+    co_nam_trong = chuoi_con in chuoi_cha
+    print("Co nam trong = ", co_nam_trong)
 
